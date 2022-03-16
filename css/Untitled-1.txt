@@ -1,0 +1,19 @@
+
+#bussiness section.wrapper section.items div.pink {background: #e6e6e6;position: relative;width: 28%;text-align: center;}
+
+#bussiness section.wrapper section.items div.pink span.pinkicon {padding: 30px;background: #fff;border-radius: 30px;position: absolute;top: 10px;left: 120px;}
+
+#bussiness section.wrapper section.items div.pink span.pinkicon img {
+}
+
+#bussiness section.wrapper section.items div.pink h2 {font-size: 30px;font-weight: 700;text-align: center;margin-top: 35%;margin-bottom: 1%;}
+
+#bussiness section.wrapper section.items div.pink p {text-align: center;font-weight: 700;font-size: 15px;width: 58%;margin: 0 auto;}
+
+#bussiness section.wrapper section.items div.pink a.button {padding: 10px 15px;background: #0056fb;border-radius: 10px;display: inline-block;margin-top: 50px;}
+
+#bussiness section.wrapper section.items div.pink div.img-container {position: absolute;bottom: -127px;left: 39px;width: 80%;}
+
+.img-container {}
+
+#bussiness section.wrapper section.items div.pink div.img-container img {display: block;width: 100%;}

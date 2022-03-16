@@ -1,0 +1,1410 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  background: transparent;
+  font-weight: normal;
+  text-decoration: none;
+  outline: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+ol,
+ul {
+  list-style: none;
+}
+del {
+  text-decoration: line-through;
+}
+body {
+  font-family: "GT-Eesti", Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  color: #000;
+  overflow-x: hidden;
+  min-width: 320px;
+  font-weight: 500;
+}
+input,
+textarea,
+select {
+  font-family: "GT-Eesti", Arial, Helvetica, sans-serif;
+  font-weight: 500;
+}
+
+a {
+  color: #000;
+}
+.thumb {
+  display: block;
+}
+.thumb img {
+  display: block;
+  width: 100%;
+}
+p {
+  line-height: 1.6em;
+  font-size: 16px;
+  font-family: "GT-Eesti", Arial;
+  font-weight: 500;
+  color: #000;
+}
+.hidden {
+  display: none;
+}
+br.clear {
+  clear: both;
+  line-height: 0;
+}
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+.flex-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+@font-face {
+  font-family: "GT-Eesti";
+  src: url("../fonts/GT-Eesti-Pro-Text-Light.woff2") format("woff2");
+  src: url("../fonts/GT-Eesti-Pro-Text-Light.woff") format("woff"),
+    url("../fonts/GT-Eesti-Pro-Text-Light.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GT-Eesti";
+  src: url("../fonts/GT-Eesti-Pro-Text-Regular.woff2") format("woff2");
+  src: url("../fonts/GT-Eesti-Pro-Text-Regular.woff") format("woff"),
+    url("../fonts/GT-Eesti-Pro-Text-Regular.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GT-Eesti";
+  src: url("../fonts/GT-Eesti-Pro-Text-Medium.woff2") format("woff2");
+  src: url("../fonts/GT-Eesti-Pro-Text-Medium.woff") format("woff"),
+    url("../fonts/GT-Eesti-Pro-Text-Medium.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GT-Eesti";
+  src: url("../fonts/GT-Eesti-Pro-Text-Bold.woff2") format("woff2");
+  src: url("../fonts/GT-Eesti-Pro-Text-Bold.woff") format("woff"),
+    url("../fonts/GT-Eesti-Pro-Text-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+::placeholder {
+  color: #9b9b9b;
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color: #9b9b9b;
+}
+
+::-ms-input-placeholder {
+  color: #9b9b9b;
+}
+header {
+  padding-top: 20px;
+}
+header section.wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+header h1 {
+  width: 120px;
+}
+header h1 img {
+  width: 100%;
+  display: block;
+}
+header section.middle ul {
+  display: flex;
+}
+header section.middle ul li {
+  margin-right: 20px;
+  font-weight: 700;
+  font-size: 15px;
+}
+header section.right ul {
+  display: flex;
+}
+header section.right ul li {
+  margin-right: 25px;
+}
+header section.right ul li a.button {
+  color: #ff8960;
+  padding: 10px 20px;
+  background-color: #ffe4da;
+  border-radius: 5px;
+  font-weight: 700;
+}
+#spotlight {
+  padding: 0 100px;
+}
+#spotlight section.wrapper {
+  display: flex;
+}
+#spotlight section.wrapper section.left {
+  width: 42%;
+}
+#spotlight section.wrapper section.left h1 {
+  font-size: 35px;
+  font-weight: 700;
+  width: 74%;
+  margin-top: 50px;
+}
+#spotlight section.wrapper section.left p {
+  width: 65%;
+  margin-top: 20px;
+  font-weight: 600;
+}
+#spotlight section.wrapper section.left form {
+  position: relative;
+}
+#spotlight section.wrapper section.left form input.email {
+  padding: 10px;
+  padding-right: 70px;
+  border: 1px solid #888;
+  border-radius: 7px;
+  margin-top: 20px;
+}
+#spotlight section.wrapper section.left form input.submit {
+  padding: 11px;
+  background: #0056fb;
+  border-radius: 5px;
+  color: #fff;
+  position: absolute;
+  bottom: 0%;
+  left: 40%;
+}
+#spotlight section.wrapper section.right {
+  position: relative;
+  width: 45%;
+  margin-right: 147px;
+}
+#spotlight section.wrapper section.right div.img-container1 {
+  padding-top: 10%;
+}
+#spotlight section.wrapper section.right div.img-container1 img {
+  display: block;
+  width: 100%; 
+}
+#spotlight section.wrapper section.right div.img-container2 {
+  width: 15%;
+  position: absolute;
+  top: 10%;
+  left: 35%;
+}
+#spotlight section.wrapper section.right div.img-container2 img {
+  width: 100%;
+  display: block;
+}
+#spotlight section.wrapper section.right div.img-container3 {
+  position: absolute;
+  top: 3%;
+  left: 53%;
+  padding: 30px;
+  border-radius: 50%;
+  background-color: #ff8960;
+}
+#spotlight section.wrapper section.right div.img-container3 img {
+  width: 100%;
+  display: block;
+  filter: invert(1);
+}
+#secondpage section.wrapper p {
+  text-align: center;
+  margin-top: 10%;
+}
+#secondpage section.wrapper ul {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+#highlights div.item.bg {
+  background: #f8f8f8;
+}
+#highlights div.item section.wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0;
+}
+#highlights div.item section.wrapper div.left {
+  width: 45%;
+}
+#highlights div.item section.wrapper div.left div.img-container img {
+  width: 100%;
+  display: block;
+}
+#highlights div.item section.wrapper div.right {
+  width: 40%;
+  padding: 24px;
+}
+#highlights div.item section.wrapper div.right span.icon {
+  background: #3dd278;
+  padding: 10px;
+  display: inline-block;
+  border-radius: 16px;
+}
+#highlights div.item section.wrapper div.right span.icon img {
+  width: 100%;
+  display: block;
+}
+#highlights div.item section.wrapper div.right h2 {
+  font-weight: 900;
+  width: 80%;
+  font-size: 37px;
+  margin-top: 20px;
+}
+#highlights div.item section.wrapper div.right p {
+  width: 69%;
+  margin: 22px 0;
+}
+#highlights div.item section.wrapper div.right a.button {
+  background: #00f;
+  color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: 600;
+  display: inline-block;
+}
+#highlights div.item section.wrapper div.right hr.line {
+  border: 1px dashed #888;
+  width: 46%;
+  margin: 30px 0;
+}
+#highlights div.item section.wrapper div.right p.content {
+  font-style: italic;
+  color: #888;
+}
+#highlights div.item section.wrapper div.right h5 {
+  font-style: italic;
+  color: #888;
+  margin-bottom: 20px;
+}
+#brands {
+  padding: 30px 0;
+}
+#brands section.wrapper section.top {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2%;
+  position: relative;
+}
+#brands section.wrapper h1 {
+  font-weight: 700;
+  width: 30%;
+  font-size: 30px;
+}
+#brands section.wrapper section.top div.item {
+  position: relative;
+}
+#brands section.wrapper section.top div.item div.img-container {
+  width: 90%;
+}
+#brands section.wrapper section.top div.item div.img-container img {
+  display: block;
+  width: 100%;
+  border-radius: 15px;
+}
+#brands section.wrapper section.top div.item div.play {
+  position: absolute;
+  top: 20px;
+  right: 17%;
+  padding: 20px;
+  background: #fff;
+  border-radius: 50%;
+  z-index: 1;
+}
+#brands section.wrapper section.top div.item div.play img {
+  display: block;
+  width: 100%;
+}
+#brands section.wrapper section.top div.item div.icon {
+  width: 95px;
+  position: absolute;
+  bottom: 90px;
+  left: 20px;
+  padding: 8px 35px;
+  background: #fff;
+  border-radius: 10px;
+}
+#brands section.wrapper section.top div.item div.icon img {
+  display: block;
+  width: 100%;
+}
+#brands section.wrapper section.top div.item div.icon1 {
+  width: 100px;
+  position: absolute;
+  bottom: 90px;
+  left: 20px;
+  padding: 10px 18px;
+  background: #fff;
+  border-radius: 10px;
+}
+#brands section.wrapper section.top div.item div.icon1 img {
+  display: block;
+  width: 100%;
+}
+#brands section.wrapper section.top div.item div.icon2 {
+  width: 100px;
+  position: absolute;
+  bottom: 90px;
+  left: 20px;
+  padding: 12px 10px;
+  background: #fff;
+  border-radius: 10px;
+}
+#brands section.wrapper section.top div.item div.icon2 img {
+  display: block;
+  width: 100%;
+}
+#brands section.wrapper section.top div.item p {
+  font-weight: 600;
+  width: 70%;
+}
+#brands section.wrapper section.bottom {
+  display: flex;
+  margin-top: 10%;
+  margin-left: 10%;
+}
+#brands section.wrapper section.bottom section.itembottom {
+  position: relative;
+}
+#brands section.wrapper section.bottom section.itembottom div.i-container {
+  width: 75%;
+}
+#brands section.wrapper section.bottom section.itembottom div.i-container img {
+  display: block;
+  width: 100%;
+}
+#brands section.wrapper section.bottom section.itembottom div.i-container1 {
+  width: 65%;
+}
+#brands section.wrapper section.bottom section.itembottom div.i-container1 img {
+  display: block;
+  width: 100%;
+}
+#brands section.wrapper section.bottom section.itembottom span.hogen {
+  width: 15%;
+  display: inline-block;
+  position: absolute;
+  bottom: 170px;
+  left: 25px;
+  padding: 7px 19px;
+  background: #fff;
+  border-radius: 10px;
+}
+#brands section.wrapper section.bottom section.itembottom span.hogen img {
+  display: block;
+  width: 100%;
+}
+#brands section.wrapper section.bottom section.itembottom span.bet {
+  width: 15%;
+  display: inline-block;
+  position: absolute;
+  bottom: 170px;
+  left: 25px;
+  padding: 13px 20px;
+  background: #fff;
+  border-radius: 10px;
+}
+#brands section.wrapper section.bottom section.itembottom span.bet img {
+  display: block;
+  width: 100%;
+}
+#brands section.wrapper section.bottom section.itembottom p {
+  width: 75%;
+  margin-bottom: 20px;
+}
+#brands section.wrapper section.bottom section.itembottom p.width {
+  width: 73%;
+}
+#brands section.wrapper section.bottom section.itembottom h2 {
+  font-size: 15px;
+  font-weight: 700;
+  margin-top: 20;
+  margin-bottom: 1px;
+}
+#brands section.wrapper section.bottom section.itembottom h3 {
+  font-size: 14px;
+}
+#brands section.wrapper section.bottom section.itembottom h4 {
+  font-size: 10px;
+  font-weight: 700;
+  width: 65%;
+  margin-top: 10px;
+}
+#marketing {
+  padding:100px 0 60px;
+  background: #f8f8f8;
+}
+#marketing section.wrapper h1 {
+  font-size: 30px;
+  font-weight: 700;
+  width: 30%;
+  margin: 0 auto;
+}
+#marketing section.wrapper ul {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 10%;
+  text-align: center;
+}
+#marketing section.wrapper ul li.border {
+  border-right: 1px dashed #888;
+}
+#marketing section.wrapper ul li {
+  width: 33%;
+}
+#marketing section.wrapper ul li div.img-container {
+  width: 60%;
+  text-align: center;
+  margin: 0 auto;
+}
+#marketing section.wrapper ul li div.img-container img {
+  display: block;
+  width: 100%;
+}
+#marketing section.wrapper ul li p {
+  width: 40%;
+  font-size: 12px;
+  margin: 0 auto;
+  margin-bottom: 20%;
+}
+#marketing section.wrapper div.content {
+  width: 40%;
+  background: #d0dfff;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  margin: 0 auto;
+  border-radius: 11px;
+}
+#marketing section.wrapper div.content p {
+  width: 66%;
+  font-size: 15px;
+  font-weight: 600;
+}
+#marketing section.wrapper div.content a.button {
+  padding: 12px;
+  background: #0056fb;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 500;
+  color: #fff;
+}
+#marketing section.wrapper div.content span.star {
+  position: absolute;
+  top: -25px;
+  left: 50px;
+  padding: 14px;
+  background: #fff;
+  border-radius: 40%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#bussiness{
+  padding:50px 0 100px;
+}
+#bussiness h1 {
+  width: 30%;
+  font-size: 30px;
+  font-weight: 700;
+  margin: 40px auto;
+  text-align: center;
+  }
+#bussiness ul {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+#bussiness ul li {
+  padding: 20px 20px 40px;
+}
+#bussiness ul li.one {
+  background-color: #d0dfff;
+  width: 30%;
+  height: 630px;
+  margin-right: 20px;
+}
+#bussiness ul li.one a.button {
+  background: #0056fb;
+}
+#bussiness ul li.two {background-color: #fef4d7;width: 30%;height: 634px;margin-right: 20px;}
+#bussiness ul li.two a.button {
+  background: #ffc836;
+}
+#bussiness ul li.three {
+  background-color: #ffe4da;
+  width: 30%;
+  height: 634px;
+}
+#bussiness ul li.three a.button {
+  background: #ff794b;
+}
+#bussiness ul li div.blueone {
+  width: 22%;
+  margin: 0 auto;
+  padding: 17px;
+  background: #fff;
+  margin-top: 28px;
+  border-radius: 10px;
+}
+#bussiness ul li div.blueone img {
+  width: 100%;
+  display: block;
+}
+#bussiness ul li div.blutwo {
+  width: 75%;
+  margin: 50px  auto;
+}
+#bussiness ul li div.blutwo img {
+  display: block;
+  width: 100%;
+}
+#bussiness ul li h2 {
+  margin: 12px;
+  font-weight: 700;
+}
+#bussiness ul li p {
+    margin-bottom: 30px;
+}
+#bussiness ul li a.button {
+  padding: 10px 24px;
+  color: #fff;
+  font-weight: 500;
+  display: inline-block;
+  margin-bottom: 20px;
+  border-radius: 24px;
+}
+#resources {
+  padding: 100px 0 100px;
+}
+#resources h1 {
+  font-weight:700;
+  font-size: 30px;
+  width: 32%;
+  margin-bottom:50px;
+}
+#resources ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+#resources ul li {
+  width: 33%;
+  margin:  0 auto;
+}
+#resources ul li div.img-container {
+  width: 95%;
+}
+#resources ul li div.img-container img {
+  display:block;
+  width: 100%;
+}
+#resources ul li h5 {
+  font-size: 15px;
+  font-weight: 500;
+  margin-top: 30px;
+}
+#resources ul li p {
+  font-weight: 700;
+  margin: 20px 0;
+  width: 78%;
+}
+#resources ul li a {
+  font-size: 15px;
+  font-weight: 600;
+  margin-top: 20px;
+  text-decoration: underline;
+}
+#resources ul li:first-child h5 {
+  color: #00f;
+}
+#resources a.button {
+  padding: 15px;
+  background-color: #00f;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+  display: block;
+  margin: 0 auto;
+  width: 15%;
+  text-align: center;
+}
+#help {
+  background: #000;
+  color: #fff;
+  padding: 50px 0 50px;
+}
+#help section.wrapper {
+  display: flex;
+}
+#help section.left {
+  width: 48%;
+}
+#help section.left h1 {
+  font-size: 30px;
+  font-weight: 600;
+  width: 30%;
+  }
+#help section.left p {
+  font-size: 13px;
+  color: #888;
+  margin-top: 5%;
+  width: 70%;
+  }
+#help section.left hr.line {
+  border: 1px dashed #888;
+  width: 45%;
+  margin-top: 5%;
+}
+#help section.left h2 {
+  font-size: 15px;
+  margin-top: 5%;
+}
+#help section.left p.content {
+  color: #fff;
+  font-style: italic;
+  font-size: 13px;
+  width: 67%;
+  margin-bottom: 5%;
+  }
+#help section.left span {
+  font-size: 15px; 
+}
+#help section.left h3 {
+  font-size: 12px;
+  color: #888;
+  margin-top: 10px;
+}
+#help section.left ul {
+  display: flex;
+  margin-top: 10px;
+}
+#help section.left ul li img {
+  border-radius: 50%;
+  margin-right: 5px;
+}
+#help section.right {
+  width: 48%;
+}
+#help section.right form {
+  background: #fff;
+  border-radius: 5px;
+  padding: 30px;
+}
+#help section.right form h1 {
+  color: #000;
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+#help section.right form input {
+  width: 48%;
+  border: 1px solid #efefef;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+#help section.right form select {
+  width: 48%;
+  border: 1px solid #efefef;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  color: #b1b1b1;
+}
+#help section.right form input[type="checkbox"]{
+    width: 5%;
+    margin-bottom: 0;
+}
+#help section.right form p {
+    width: 90%;
+    display: inline-block;
+    font-size: 13px;
+    color: #a4a4a4;
+}
+#help section.right form a {
+    color: #a4a4a4;
+    text-decoration: underline;
+}
+#help section.right form a.button {
+    color: #fff;
+    font-weight: 600;
+    background: blue;
+    width: 100%;
+    display: block;
+    padding: 15px 0;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+footer {
+  padding: 50px;
+}
+footer section.wrapper h4 {
+  display: none;
+}
+footer section.wrapper div.all {
+  display: flex;
+}
+footer div.left {
+  width: 20%;
+  margin-right: 100px;
+}
+footer  div.all  div.left h4 {
+  margin-bottom: 30px;
+  width: 78%;
+  display:block;
+}
+footer  div.left div.social ul {
+  display: flex;
+  margin-bottom: 20px;
+}
+footer  div.left div.social ul li {
+  margin-right: 10px;
+  padding: 8px;
+  background: #efefef;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  filter: grayscale(1);
+  margin-bottom: 10px;
+}
+footer  div.left div.globe {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+footer  div.left div.globe span {
+    font-weight: 500;
+}
+footer  div.right {
+  display: flex;
+  width: 70%;
+  justify-content: space-between;
+}
+footer  div.right div.item ul h5 {
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+footer  div.right div.item ul li {
+  margin-bottom: 10px;
+}
+footer div.right div.item span h5{
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+@media all and (max-width: 1080px) {
+  #spotlight {
+    padding: 0;
+  }
+  #highlights div.item section.wrapper{
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  #highlights div.item section.wrapper div.left {
+    width: 65%;
+    margin: 0 auto;
+  }
+  #highlights div.item section.wrapper div.right{
+    width: 100%;
+    margin: 0 auto;
+  }
+  #highlights div.item section.wrapper div.right h2 {
+    width: 100%;
+  }
+  #highlights div.item section.wrapper div.right p {
+    width: 70%;
+    margin: 20px auto;
+  }
+  #highlights div.item section.wrapper div.right hr.line {
+    width: 100%;
+  }
+  #spotlight section.wrapper section.left h1{
+    font-size: 20px;
+  }
+  #brands section.wrapper h1{
+    width: 100%;
+    font-size: 20px;
+  }
+  #brands section.wrapper section.bottom section.itembottom span.hogen{
+    position: absolute;
+    bottom:200px;
+  
+  }
+  #brands section.wrapper section.bottom section.itembottom span.bet{
+    position: absolute;
+    bottom:200px;
+  }
+  #marketing section.wrapper h1{
+    width: 100%;
+  }
+  #marketing section.wrapper ul{
+    padding-top: 5%;
+  }
+  #marketing section.wrapper div.content{
+    width: 70%;
+  }
+  #bussiness h1{
+    width: 50%;
+  }
+  #resources h1{
+    width: 50%;
+  }
+  #resources a.button{
+    width: 50%;
+  }
+  footer div.right{
+    width: 60%;
+    
+    
+  }
+  footer div.left{
+    width: 40%;
+  }
+}
+
+@media all and (max-width: 980px){
+  header section.middle ul{
+    display: none;
+  }
+  #spotlight section.wrapper section.left{
+    width: 100%;
+  }
+  #spotlight section.wrapper section.right{
+    width: 85% ;
+  }
+  #spotlight section.wrapper section.left form input.submit{
+    left: 45%;
+  }
+  #highlights div.item section.wrapper div.right h2{
+    font-size: 20px;
+  }
+  #brands section.wrapper section.top div.item div.icon{
+    bottom: 130px;
+    left: 200px;
+  }
+  #brands section.wrapper section.top div.item div.icon1{
+    bottom: 130px;
+    left: 200px;
+  }
+  #brands section.wrapper section.top div.item div.icon2{
+    bottom: 130px;
+    left: 200px;
+  }
+  #brands section.wrapper section.top{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  #brands section.wrapper section.top div.item div.img-container{
+    width: 50%;
+    margin:  0 auto;
+  }
+  #brands section.wrapper section.top div.item div.play{
+    right: 30%;
+  }
+  #brands section.wrapper section.bottom section.itembottom span.hogen{
+    bottom: 245px;
+    left: 145px;
+    width: 15%;
+  }
+  #brands section.wrapper section.bottom section.itembottom span.bet{
+    bottom: 245px;
+    left: 150px;
+    width: 15%;
+  }
+  #marketing section.wrapper ul li p{
+    width: 60%;
+  }
+  #bussiness{
+    padding: 0;
+  }
+  #bussiness h1{
+    font-size: 20px;
+  }
+  #bussiness ul li div.blueone{
+    width: 55px;
+  }
+  #resources h1{
+    font-size: 25px;
+    margin: 20px auto;
+    text-align: center;
+    width: 90%;
+  }
+  #resources ul li p{
+    width: 100%;
+  }
+  #resources a.button{
+      width: 30%;
+  }
+  #brands section.wrapper section.top div.item p{
+    font-weight: 600;
+    width: 70%;
+    text-align: center;
+    margin: 30px auto;
+ }
+ #brands section.wrapper h1 {
+  width: 100%;
+  font-size: 20px;
+  text-align: center;
+  margin: 30px 0;
+ }
+ #brands section.wrapper section.bottom{
+   flex-wrap: wrap;
+ }
+ #brands section.wrapper section.bottom section.itembottom div.i-container{
+   width: 60%;
+   margin: 0 auto;
+ }
+ #brands section.wrapper section.bottom section.itembottom div.i-container1 {
+  width: 57%;
+  margin: 0 auto;
+}
+#brands section.wrapper section.bottom section.itembottom p{
+  width: 100%;
+  margin: 40px auto;
+  text-align: center;
+}
+#brands section.wrapper section.bottom section.itembottom p.width{
+  width: 100%;
+}
+#brands section.wrapper section.bottom section.itembottom h2{
+  text-align: center;
+}
+#brands section.wrapper section.bottom section.itembottom h3{
+  text-align: center;
+}
+#brands section.wrapper section.bottom section.itembottom h4 {
+  font-size: 10px;
+  font-weight: 700;
+  width: 100%;
+  margin: 10px auto;
+  text-align: center;
+}
+#resources ul{
+  flex-wrap: wrap;
+}
+#resources ul li{
+  width: 50%;
+  margin-top: 20px;
+}
+#help section.left{
+  width: 53%;
+}
+footer div.left{
+  width: 100%;
+  font-size: 15px;
+  margin-right: 25px;
+}
+footer div.left h4{
+  margin:  20px auto;
+}
+footer div.right{
+  width: 100%;
+  justify-content: space-between;
+}
+footer div.right div.item ul li{
+  font-size: 13px;
+}
+footer div.left div.social ul{
+  justify-content: center;
+}
+footer div.left div.globe{
+  justify-content: center;
+}
+footer section.wrapper div.all {
+  display: flex;
+  flex-direction: column-reverse;
+}
+footer div.all div.left h4{
+  display: none;
+}
+footer section.wrapper h4{
+  display: block;
+  width: 50%;
+  margin-bottom: 30px;
+}
+}
+@media all and (max-width: 768px){
+
+  #spotlight section.wrapper section.right div.img-container3{
+    padding: 18px;
+  }
+  #spotlight section.wrapper section.left form input.submit{
+    left:68%;
+  }
+
+  #secondpage section.wrapper ul li{
+    margin:  0 20px;
+  }
+  #secondpage section.wrapper ul{
+   flex-wrap: wrap;
+  }
+  #marketing section.wrapper h1 {
+    width: 50%;
+    font-size: 20px;
+    text-align: center;
+}
+#marketing section.wrapper ul li.border h2 {
+  font-size: 20px;
+  margin: 20px auto;
+}
+#marketing section.wrapper ul li h2 {
+  font-size: 20px;
+  margin: 20px auto;
+}
+#bussiness ul{
+  flex-wrap:wrap;
+}
+#bussiness ul li.one{
+  width: 51%;
+  margin: 0 auto 20px;
+}
+#bussiness ul li.two{
+  width: 51%;
+  margin: 0 auto 20px;
+}
+#bussiness ul li.three{
+  width: 51%;
+  margin: 0 auto 20px;
+}
+#help section.wrapper{
+  flex-wrap: wrap;
+}
+#help section.right{
+  width: 100%;
+}  
+#help section.left{
+  width: 100%;
+  margin-bottom: 20px;
+}
+#help section.left h1{
+  text-align: center;
+  width: 100%;
+}
+#help section.left p{
+  width: 100%;
+  text-align: center;
+}
+#help section.left p.content{
+  width: 100%;
+  text-align: center;
+}
+#help section.left h2{
+  text-align: center;
+}
+#help section.left hr.line {
+  border: 1px dashed #888;
+  width: 85%;
+  margin: 20px auto;
+}
+#help section.left span{
+  display: block;
+  text-align: center;
+}
+#help section.left h3{
+  text-align: center;
+}
+#help section.left ul{
+  justify-content: center;
+}
+}
+
+@media all and (max-width: 640px) {
+  #spotlight section.wrapper section.right{
+    display:none;
+  }
+  #spotlight section.wrapper section.left form input.submit{
+    left: 50%;
+  }
+  
+  #spotlight section.wrapper section.left{
+    width: 100%;
+  }
+  #spotlight section.wrapper section.left p{
+    width: 100%;
+  }
+  #brands section.wrapper section.top div.item div.play{
+    padding: 10px;
+  }
+  #brands section.wrapper section.top div.item div.icon {
+    width: 73px;
+    position: absolute;
+    bottom: 90px;
+    left: 20px;
+    padding: 7px 27px;
+    background: #fff;
+    border-radius: 10px;
+}
+#brands section.wrapper section.top div.item div.icon {
+  bottom: 120px;
+  left: 120px;
+}
+#brands section.wrapper section.top div.item div.icon1 {
+  width: 65px;
+  position: absolute;
+  bottom: 90px;
+  left: 20px;
+  padding: 6px 11px;
+  background: #fff;
+  border-radius: 10px;
+}
+#brands section.wrapper section.top div.item div.icon1 {
+  bottom: 120px;
+  left: 120px;
+}
+#brands section.wrapper section.top div.item div.icon2 {
+  bottom: 150px;
+  left: 120px;
+}
+#brands section.wrapper section.bottom section.itembottom span.hogen {
+  bottom: 236px;
+  left: 90px;
+  width: 18%;
+}
+#brands section.wrapper section.bottom section.itembottom span.bet {
+  bottom: 240px;
+  left: 100px;
+  width: 17%;
+}
+#brands section.wrapper section.bottom section.itembottom p{
+  margin: 40px auto 10px;
+}
+#marketing section.wrapper ul li {
+  width: 50%;
+}
+#marketing section.wrapper ul li.border {
+  border: none;
+
+}
+#marketing section.wrapper div.content{
+  width: 90%;
+}
+#marketing section.wrapper div.content{
+  padding: 25px;
+}
+#marketing section.wrapper div.content{
+  font-size: 13px;
+}
+#resources ul li a{
+  font-size: 13px;
+}
+#resources ul li p{
+  font-size: 13px;
+}
+}
+@media all and (max-width: 480px) {
+  header h1{
+    margin: 0 auto;
+  }
+  header section.right{
+    display: none;
+  }
+  #spotlight section.wrapper section.right{
+    display: none;
+  }
+  #secondpage section.wrapper ul li{
+    height: 44px;
+  }
+  #brands section.wrapper section.top div.item div.img-container{
+    width: 80%;
+  }
+  #brands section.wrapper section.top div.item div.play{
+    right: 20%;
+  }
+  #brands section.wrapper section.top div.item div.icon {
+    bottom: 152px;
+    left: 50px;
+}
+  #brands section.wrapper section.top div.item div.icon1{
+    left: 45px;
+  }
+  #brands section.wrapper section.top div.item div.icon2 {
+    bottom: 150px;
+    left: 46px;
+    width: 80px;
+}
+#brands section.wrapper section.bottom section.itembottom div.i-container{
+  width: 90%;
+}
+#brands section.wrapper section.bottom section.itembottom div.i-container1{
+  width: 90%;
+}
+#brands section.wrapper section.bottom section.itembottom span.hogen {
+  bottom: 230px;
+  left: 36px;
+  width: 26%;
+}
+#brands section.wrapper section.bottom section.itembottom span.bet {
+  bottom: 235px;
+  left: 35px;
+  width: 25%;
+}
+#marketing section.wrapper ul li.border h2{
+  font-size: 18px;
+}
+#marketing section.wrapper ul li div.img-container{
+  width: 90%;
+}
+#marketing section.wrapper ul li p {
+  width: 80%;
+}
+#marketing section.wrapper div.content p {
+  width: 56%;
+  font-size: 11px;
+  font-weight: 600;
+}
+#marketing section.wrapper div.content a.button {
+  padding: 8px;
+}
+#marketing section.wrapper div.content span.star {
+  padding: 8px;
+}
+#bussiness ul li div.blutwo {
+  width: 100%;
+}
+#bussiness ul li.one {
+  width: 90%;
+}
+#bussiness ul li.two {
+  width: 90%;
+}
+#bussiness ul li.three {
+  width: 90%;
+}
+#resources a.button {
+  width: 70%;
+}
+#resources ul li p {
+  font-size: 11px;
+}
+#help section.right form h1 {
+  font-size: 24px;
+}
+#help section.right form input {
+  padding: 5px;
+}
+#help section.right form select {
+  padding: 5px;
+}
+#help section.right form p {
+  font-size: 11px;
+}
+footer section.wrapper h4 {
+  width: 100%;
+}
+footer div.right div.item {
+  margin-right: 14px;
+}
+footer div.right div.item ul li {
+  font-size: 11px;
+}
+footer div.right {
+  flex-wrap: wrap;
+}
+}
+@media all and (max-width: 360px) {
+  header h1{
+    width: 120px;
+  }
+  header h1 img{
+    width: 100%;
+    display: block;
+  }
+  #highlights div.item section.wrapper div.right p {
+    font-size: 12px;
+  }
+  #highlights div.item section.wrapper div.right p {
+    width: 100%;
+  }
+  #marketing section.wrapper h1 {
+    width: 80%;
+  }
+  #marketing section.wrapper ul li {
+    width: 100%;
+  }
+  #marketing section.wrapper ul li.border h2 {
+    margin: 10px 0;
+  }
+  #marketing section.wrapper div.content a.button {
+    padding: 5px;
+  }
+  #marketing section.wrapper div.content {
+    padding: 15px;
+  }
+  #brands section.wrapper section.bottom section.itembottom p {
+    font-size:11px; 
+    margin: 10px auto 10px;
+  }
+  #brands section.wrapper section.top div.item div.play {
+    padding: 13px;
+    right: 15%;
+  }
+  #brands section.wrapper section.top div.item div.icon1{
+    bottom: 150px;
+  }
+  #brands section.wrapper section.bottom section.itembottom span.hogen {
+    bottom: 150px;
+  }
+  #brands section.wrapper section.bottom section.itembottom span.bet {
+    bottom: 150px;
+  }
+  #marketing section.wrapper ul li p {
+    width: 100%;
+  }
+  #help section.right form input {
+    width: 100%;
+    padding: 10px;
+  }
+  #help section.right form select {
+    width: 100%;
+    padding: 10px;
+  }
+  #bussiness h1 {
+    width: 75%;
+    font-size: 15px;
+  }
+  #resources h1 {
+    font-size: 15px;
+  }
+  #resources ul li {
+    width: 80%;
+  }
+  footer {
+    padding: 10px;
+}
+  footer div.right {
+    flex-wrap: wrap;
+}
+footer div.left{
+  text-align: center;
+  }
+  footer div.right div.item {
+    margin-right: 0px;
+    margin-bottom: 10px;
+    width: 40%;
+}
+}
+
+ 
